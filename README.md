@@ -1,16 +1,35 @@
-# React + Vite
+# Проект веб-приложения
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Приложение создано на основе React + Vite + Tailwind CSS.
 
-Currently, two official plugins are available:
+## Как запустить проект локально
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 1. Установка зависимостей
+```bash
+npm install
+```
 
-## React Compiler
+### 2. Запуск в режиме разработки (Dev Server)
+```bash
+npm run dev
+```
+После выполнения команды в терминале появится ссылка (обычно `http://localhost:5173`), открыв которую в браузере, вы увидите приложение.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3. Сборка для продакшена (Production Build)
+```bash
+npm run build
+```
 
-## Expanding the Oxlint configuration
+### 4. Предпросмотр собранной версии
+```bash
+npm run preview
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Что сделано на данный момент
+1. Белый фон для всего экрана.
+2. Желтый логотип компании в центре экрана.
+3. Нижняя навигационная панель желтого цвета с 4 кнопками:
+   - **Главное** (иконка домика)
+   - **Каталог** (иконка из 3 линий)
+   - **Корзина** (иконка корзины/сумки)
+   - **Аккаунт** (иконка пользователя)
